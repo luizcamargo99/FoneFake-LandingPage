@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0066ff;
+}
+
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+header {
+  width: 100%;
+  max-width: 1160px;
+  min-height: 70px;
+  margin-bottom: 30px;
+  padding: 0 40px;
+}
+
+header p {
+  font-size: 30px;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  max-width: 70%;
+}
+
+section {
+  width: 100%;
+}
+
+section:nth-child(even) {
+  background-color: rgb(239, 239, 239);
+}
+
+p {
+  line-height: 25px;
+}
+
+footer {
+  min-height: 80px;
+}
+
+.primary-btn,
+.second-btn {
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.second-btn {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.primary-btn:hover {
+  background-color: #0056d8;
+}
+
+.second-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.primary-text {
+  color: var(--primary-color);
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.center-main {
+  justify-content: center;
+}
+
+.center-cross {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.gap-100 {
+  gap: 100px;
+}
+
+.gap-150 {
+  gap: 150px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  max-width: 300px;
+  gap: 15px;
+}
+
+.section-space {
+  padding: 60px 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.price {
+  font-size: 23px;
+  font-weight: bold;
+}
